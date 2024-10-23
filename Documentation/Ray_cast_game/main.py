@@ -18,9 +18,6 @@ while True:
         if event.type == pygame.QUIT:
             pygame.quit()
             sys.exit()
-        elif event.type == pygame.KEYDOWN:
-            if event.key == pygame.K_ESCAPE:
-                show_menu()
     player.movement()
     sc.fill(BLACK)
 
